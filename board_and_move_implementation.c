@@ -2,6 +2,7 @@
 #include<stdio.h>
 
 void print_board(int board[]);
+void implement_user_move(int board[]);
 
 int main(void){
 char tuna[9] = {1,2,3,4,5,6,7,8,9};
@@ -23,5 +24,12 @@ void print_board( int board[]){
         puts("-----------");
         printf(" %c | %c | %c \n",board[6],board[7],board[8]);
 return;
+}
+
+void implement_user_move(in board[ ]){
+        int bn;
+        scanf("Enter the box you would like to claim %d", &bn);
+        /*check function runs*/
+        board[bn]= "x"
 }
 
