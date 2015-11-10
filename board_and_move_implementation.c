@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<stdio.h>
 
-void print_board(char board[], char c);
-void implement_user_move(int board[]);
+void print_board(char board[]);
+void implement_user_move(char board[], char c);
 
 int main(void){
 char tuna[9] = {'1','2','3','4','5','6','7','8','9'};
