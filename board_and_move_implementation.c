@@ -24,10 +24,32 @@ void print_board( int board[]){
         printf(" %c | %c | %c \n",board[6],board[7],board[8]);
 return;
 }
+int getspace( void ){
+        int a;
+        while (1){
+                scanf("%d", &a);
+                        if ( a>9 || a<1){
+                                return a;
+                        }else{
+                                puts("try again");
+                                continue;
+                        }
+                }
+return 0;
+}
 
 void implement_user_move(char board[ ]){
         int bn;
+        while(1){
+                bn = getspace();
+                if (board[bn] != ' '){
+                        printf("%d is already claimed, try again.", bn);
+                }else{
+                        printf("you have claimed %d",bn);
+                        board[bn]=
+                }
+                }
         scanf("Enter the box you would like to claim %d", &bn);
-        /*check function runs*/
+        
         board[bn]= "x"
 }
