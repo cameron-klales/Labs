@@ -51,7 +51,4 @@ void implement_user_move(char board[ ], char c){
                         board[bn] = c;
                 }
                 }
-        scanf("Enter the box you would like to claim %d", &bn);
-        
-        board[bn]= "x"
 }
