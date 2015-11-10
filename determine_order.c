@@ -14,10 +14,10 @@ int determine_order(void){
         scanf("%c", &z);
 
         if(z == "x" || z == "X"){
-                printf("You have chosen to play as %c, z");
+                printf("You have chosen to play as %c", z);
                 return 1;
         }else if(z == "O" || z == "o"){
-                printf("You have chosen to play as %c, z");
+                printf("You have chosen to play as %c", z);
                 return 2;
         }else{
                 puts("Try again");
