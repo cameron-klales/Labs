@@ -5,9 +5,9 @@ void print_board(int board[]);
 void implement_user_move(int board[]);
 
 int main(void){
-char tuna[9] = {1,2,3,4,5,6,7,8,9};
+char tuna[9] = {'1','2','3','4','5','6','7','8','9'};
 int *salmon[9];
-print_board(int salmon[]);
+print_board(salmon[]);
 
 return;
 
