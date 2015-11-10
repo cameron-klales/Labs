@@ -3,6 +3,7 @@
 
 void print_board(char board[]);
 void implement_user_move(char board[], char c);
+int getspace (void);
 
 int main(void){
 char tuna[9] = {'1','2','3','4','5','6','7','8','9'};
@@ -43,6 +44,7 @@ void implement_user_move(char board[ ], char c){
         int bn;
         while(1){
                 bn = getspace();
+                --bn;
                 if (board[bn] != ' '){
                         printf("%d is already claimed, try again.", bn);
                         continue;
