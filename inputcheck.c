@@ -35,7 +35,7 @@ int check(void){
         return k;
         break;
     };
-    }   
+    
     j = sizeof(march_2015_closing[])/sizeof(march_2015_closing[0]);
     
     for(i=0, i<j, i++){
