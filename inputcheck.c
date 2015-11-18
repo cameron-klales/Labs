@@ -20,31 +20,33 @@ int check(void){
         k++;
         continue;
       }else{
-        return i;
+        return k;
         break;
       };
     
     j = sizeof(february_2015_opening_average[])/sizeof(february_2015_opening_average[0]);
     
-    for(i, i<j, i++){
+    for(i=0, i<j, i++){
       puts("Yes");
       if(strncasecmp(input, february_2015_date_recorded[i], strlen(february_2015_date_recorded[i])==0){
         k++
         continue;
       }else{
-        return i;
+        return k;
         break;
     };
-        
+    }   
     j = sizeof(march_2015_closing[])/sizeof(march_2015_closing[0]);
     
-    for(i, i<j, i++){
+    for(i=0, i<j, i++){
       puts("Yes");
       if(strncasecmp(input,march_2015_date_recorded[i],strlen(data[i])==0)
+      k++
         continue;
       }else{
-        return i;
+        return k;
         break;
+    }
     puts("lol no")
     };
 }
