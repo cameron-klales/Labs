@@ -4,7 +4,7 @@ double getaverage(double rayt[]){
   double k;
   double m;
   j = (sizeof(rayt)/double(rayt[0]))
-  
+  k=0;
   for(i=0, i<j,i++){
     k += rayt(i)
   }
